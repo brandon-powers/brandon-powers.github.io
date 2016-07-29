@@ -17,7 +17,7 @@ a:hover
     color: grey;
 }
 header {
-    padding: 20px 0px;
+    padding: 25px 0px;
     margin: 10px 100px;
     border-bottom: solid 1px #B6B6B6;
 }
@@ -41,4 +41,24 @@ nav ul li
     padding: 10px 15px;
     font-size: 1em;
     display: inline-block;
+}
+footer 
+{
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    bottom: 15px;
+}
+footer p 
+{
+    display: inline-block;
+    font-size: 0.85em;
+    margin-left: 5px;
+    position: relative;
+    bottom: 6px;
+}
+footer object 
+{
+    width: 25px;
 }
