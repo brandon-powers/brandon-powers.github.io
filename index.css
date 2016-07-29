@@ -17,12 +17,9 @@ a:hover
     color: grey;
 }
 header {
-    padding: 25px 0px;
+    padding: 35px 0px;
     margin: 10px 100px;
     border-bottom: solid 1px #B6B6B6;
-}
-nav
-{
 }
 nav ul 
 {
@@ -33,32 +30,75 @@ h5 {
     font-size: 1em;
     display: inline-block;
     padding: 10px 20px;
-    border: solid 1px;
+    border: solid 1px #B6B6B6;
     border-radius: 5px;
 }
 nav ul li
 {
-    padding: 10px 15px;
+    padding: 10px 17px;
     font-size: 1em;
     display: inline-block;
 }
 footer 
 {
-    position: absolute;
-    display: block;
-    width: 100%;
     text-align: center;
-    bottom: 15px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0px;
 }
 footer p 
 {
+    position: relative;
+    bottom: 7px;
     display: inline-block;
     font-size: 0.85em;
     margin-left: 5px;
-    position: relative;
-    bottom: 6px;
 }
 footer object 
 {
     width: 25px;
+}
+.content 
+{
+    margin: 0px 100px;
+    overflow: auto;
+}
+.lg-card {
+    margin: 40px 5% 0px 0px;
+    float: left;
+    width: 45%;
+    height: 450px;
+    line-height: 2em;
+    font-size: 0.85em;
+}
+p {
+    margin-top: 15px;
+}
+.divider-line {
+    margin: 30px 0px;
+    width: 10%;
+    border-bottom: solid 1px #448AFF;
+}
+.sm-card {
+    margin: 40px 5% 0px 0px;
+    float:left;
+    width: 20%;
+    height: 175px;
+}
+.recent-subject {
+    padding: 0px 0px 35px 0px;
+}
+.recent-subject h6
+{
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+.recent-subject p {
+    font-size: 0.85em;
+    font-weight: 200;
+    margin: 0;
 }
