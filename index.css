@@ -7,6 +7,9 @@
     margin: 0;
     padding: 0;
 }
+html, body {
+    height: 100%;
+}
 a
 {
     text-decoration: none;
@@ -14,7 +17,7 @@ a
 }
 a:hover
 {
-    color: grey;
+    color: #616161;
 }
 header {
     padding: 35px 0px;
@@ -38,28 +41,6 @@ nav ul li
     padding: 10px 17px;
     font-size: 1em;
     display: inline-block;
-}
-footer 
-{
-    text-align: center;
-    width: 100%;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 10px 0px;
-}
-footer p 
-{
-    position: relative;
-    bottom: 7px;
-    display: inline-block;
-    font-size: 0.85em;
-    margin-left: 5px;
-}
-footer object 
-{
-    width: 25px;
 }
 .content 
 {
@@ -91,7 +72,7 @@ p {
 .recent-subject {
     padding: 0px 0px 35px 0px;
 }
-.recent-subject h6
+.recent-subject a
 {
     font-weight: 400;
     margin-bottom: 5px;
@@ -101,4 +82,52 @@ p {
     font-size: 0.85em;
     font-weight: 200;
     margin: 0;
+}
+.list-header {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.list-header .divider-line {
+    margin: 30px auto 0px auto;
+}
+.list-items {
+    margin-top: 40px;
+}
+.list-item {
+    margin-top: 30px;
+    text-align: center;
+}
+.list-item a {
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+.list-item p {
+    margin: 0;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -40px;
+}
+.push, footer {
+    height: 50px;
+}
+footer {
+    text-align: center; 
+    width: 100%;
+    padding: 10px 0px;
+}
+footer p {
+    margin-left: 5px;
+    display: inline-block;
+    font-size: 0.85em;
+    position: relative;
+    bottom: 5px;
+}
+footer object {
+    width: 25px;
 }
