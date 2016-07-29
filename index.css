@@ -1,223 +1,44 @@
 /* -----Universal & Simple Selectors----- */
 *
 {
-    /* Set background image, font family, and foreground (text) color */
-    background-image: url("images/debut_dark.png");
-    font-family: "Raleway";
-    color: lightgrey;
-}
-h1, h2
-{
-    /* Center Headers <h1> & <h2> */
-    text-align: center;
-}
-p
-{
-    /* Set whitespace between borders of <p> and other elements (margins) */
-    margin-right: 150px;
-    margin-left: 150px;
-    text-indent: 50px;
+    background-color: #F5F5F5; 
+    font-family: "Raleway", sans-serif;
+    color: #212121;
+    margin: 0;
+    padding: 0;
 }
 a
 {
-    /* Set links to bold & remove underline */
-    font-weight: bold;
     text-decoration: none;
+    cursor: pointer;
 }
 a:hover
 {
-    /* Change color to grey when user hovers over link */
     color: grey;
 }
-img
-{
-    /* Set shadow under images */
-    box-shadow: 0px 8px 10px black;
+header {
+    padding: 20px 0px;
+    margin: 10px 100px;
+    border-bottom: solid 1px #B6B6B6;
 }
-dl
-{
-    text-align: center;
-}
-.noshadow
-{
-    /* Exclude some images from shadow */
-    box-shadow: none;
-}
-
-/*----- Navigation Bar----- */
 nav
 {
-    /* Set whitespace between element content and its border (padding) */
-    padding: 10px 20px 20px 20px;
 }
 nav ul 
 {
-    /* Set up border & text of nav bar */
-    border-bottom-style: solid;
-    border-width: 1px;
-    font-size: 15pt;
-    text-align: center;
-    
-    /* No bullets & no default browser settings */
+    float: right;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
-nav a img
-{
-    /* Set size & position of logo */
-    width: 28px;
-    height: 28px;
-    position: relative;
-    bottom: 30px;
+h5 {
+    font-size: 1em;
+    display: inline-block;
+    padding: 10px 20px;
+    border: solid 1px;
+    border-radius: 5px;
 }
 nav ul li
 {
-    /* Inline makes list horizontal & block makes area clickable, not just text */
+    padding: 10px 15px;
+    font-size: 1em;
     display: inline-block;
-}
-nav ul li a 
-{
-    /* Separate nav links */
-    padding-right: 30px;
-    padding-left: 30px;
-}
-
-/* -----index.html----- */
-#index img
-{
-    /* Position image, set size, and create a shadow under image */
-    display: block;
-    margin: auto;
-    width: 35%;
-}
-#index p
-{
-    /* Increase font-size */
-    font-size: 20px;
-}
-
-/* -----about.html----- */
-#about ol
-{
-    margin-right: 150px;
-    margin-left: 150px;
-}
-#about img
-{
-    width: 40%;
-    vertical-align: middle;
-    position: relative;
-    left: 10%;
-}
-#about .single_pic
-{
-    position: relative;
-    left: 30%;
-}
-
-/* -----friends.html-----*/
-#friends img
-{
-    /* Set size & position of images */
-    width: 35%;
-    vertical-align: middle;
-    position: relative;
-    left: 15%;
-}
-#friends h3
-{
-    /* Change position & size of <h3> elements */
-    font-size: 18pt;
-    margin-left: 150px;
-}
-#friends span img
-{
-    /* Set size & position of a single picture */
-    width: 30%;
-    left: 35%;
-}
-
-/* -----interests.html-----*/
-#interests img
-{
-    /* Set size & position of images */
-    display: block;
-    margin: auto;
-    width: 30%;
-}
-
-/*-----media.html-----*/
-#media iframe, #media video, #media img
-{
-    /* Set position & size */
-    display: block;
-    margin: auto;
-    width: 60%;
-}
-#media iframe, #media video {height: 500px;}
-#media .double_pic
-{
-    /* Set position & size of side by side pictures */
-    display: inline;
-    width: 40%;
-    vertical-align: middle;
-    position: relative;
-    left: 10%;    
-}
-.double_list
-{
-    /* Set position of double audio list */
-    float: left;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-/*-----resume.html-----*/
-#resume h1, #resume h3, #resume p, #resume ul
-{
-    /* Basic text formatting */
-    text-align: left;
-    margin-left: 50px;
-}
-#social
-{
-    /* No bullets & no default browser settings */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-#social img
-{
-    /* Set size & position of icons WITHIN list */
-    width: 50px;
-    height: 50px;
-    margin-left: 50px;
-}
-#social li
-{
-    /* Position the LIST of social media icons */
-    display: inline-block;
-    position: relative;
-    left: 25%;
-}
-object
-{
-    /* Set size & position PDF reader */
-    width: 30%;
-    height: 400px;
-    position: relative;
-    left: 35%;
-    bottom: 50px;
-}
-
-
-/* -----Footer----- */
-footer a img
-{
-    /* Center & size the HTML5 icon */
-    display: block;
-    margin: auto;
-    width: 40px;
-    height: 40px;
 }
