@@ -74,10 +74,14 @@ p {
     margin-left: 35%;
 }
 .center-content .divider-line {
-    margin: 30px auto 0px auto;
+    margin: 30px auto 30px auto;
 }
 .center-content p {
     text-align: left;
+}
+.center-content img {
+    width: 18%;
+    margin: 40px 8px 0px 8px;
 }
 .recent-subject {
     padding: 0px 0px 35px 0px;
