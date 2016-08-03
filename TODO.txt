@@ -1,6 +1,6 @@
 TODO list:
 
-1. Create 'contact' page
+1. Create 'contact' page 
 2. Create 'blog/project' entry page
 3. Fix line length on 'index' page
 4. Fix footer properties on ALL pages
