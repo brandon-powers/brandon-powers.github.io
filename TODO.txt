@@ -1,0 +1,8 @@
+TODO list:
+
+1. Create 'contact' page
+2. Create 'blog/project' entry page
+3. Fix line length on 'index' page
+4. Fix footer properties on ALL pages
+5. Fix content on ALL pages
+6. Add jekyll & configure website accordingly
