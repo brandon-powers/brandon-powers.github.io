@@ -1,0 +1,8 @@
+# Site settings
+title: "Brandon Powers"
+description: > # this means to ignore newlines until "baseurl:"
+  Brandon Powers Description site
+url: "https://brandon-powers.github.io"
+
+# Build settings
+markdown: kramdown
