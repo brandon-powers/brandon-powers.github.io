@@ -63,9 +63,9 @@ p {
     border-bottom: solid 1px #448AFF;
 }
 .sm-card {
-    margin: 40px 5% 0px 0px;
+    margin: 40px 0% 0px 0px;
     float:left;
-    width: 20%;
+    width: 25%;
 }
 .lg-card h3, .sm-card h3 {
     font-size: 18px;
@@ -154,9 +154,17 @@ footer object {
     margin: 0px 170px 60px 170px;
 }
 .project h3 {
-    font-size: 1.5em;
-    margin-bottom: 25px;
+    font-size: 1.7em;
 }
 .project p {
     line-height: 1.5em;
+}
+.skills {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-weight: 200;
+}
+.add-bottom-margin {
+    margin-bottom: 17px;
 }

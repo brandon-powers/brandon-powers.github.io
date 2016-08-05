@@ -1,6 +1,5 @@
 TODO list:
 
-- Finish projects page
 - Finish blog post page
 - Make site responsive
 - Clean up markup & project
