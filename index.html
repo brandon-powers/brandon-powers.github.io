@@ -7,31 +7,29 @@ permalink: /
 <section class="lg-card">
     <h3>About</h3>
     <div class="divider-line"></div>
-    <p>Hi, I'm Brandon Powers. I'm an aspiring software engineer from right outside of Boston, Massachusetts.</p>
-    <p>I'm currently working on my Bachelors of Science at <a href="http://www.stonehill.edu" target="_blank">Stonehill College</a>, majoring in Computer Science. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit sem ipsum, et dignissim nibh venenatis sit amet. Suspendisse molestie pretium odio. Duis sagittis ultricies fringilla.</p> 
-    <p>Phasellus porta neque ut sapien pulvinar suscipit. Nunc non sollicitudin neque. <a href="/contact">Contact me</a>.</p>
+    <p class="no-top-margin">Hi, I'm Brandon Powers. I'm an aspiring software engineer from right outside of Boston, Massachusetts.</p>
+    <p>I'm currently working on my Bachelors of Science at <a href="http://www.stonehill.edu" target="_blank">Stonehill College</a>, majoring in Computer Science. My goal has always been to make an impact. In what other discipline can one create something one day and have it affect millions of people the next?</p> 
+    <p>I'm interested in working on any type of software project, from networking to web development. Want to work together? <strong><a href="/contact">Talk to me!</a></strong> Or we could just talk about the universe; you know, small talk.</p>
 </section>
 <section class="sm-card">
     <h3>Recent Work</h3>
     <div class="divider-line"></div>
     <div class="recent-subject">
-        <a href="/projects#test">Py-shell</a>
-        <p>March 24, 2016</p>
+        <a href="/projects#py-shell">Py-shell</a>
+        <p>December 10, 2015</p>
     </div>
     <div class="recent-subject">
-        <a href="#">FTP Application</a>
-        <p>March 28, 2016</p>
+        <a href="/projects#personal-website">brandon-powers.github.io</a>
+        <p>August 5, 2016</p>
     </div>
 </section>
 <section class="sm-card">
     <h3>Recent Posts</h3>
     <div class="divider-line"></div>
+    {% for post in site.posts limit:3 %}
     <div class="recent-subject">
-        <a href="#">Huffman in C</a>
-        <p>June 24, 2016</p>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <p>{{ post.date | date: '%B %d, %Y' }}</p>
     </div>
-    <div class="recent-subject">
-        <a href="#">Why Computer Science?</a>
-        <p>April 28, 2016</p>
-    </div>
+    {% endfor %}
 </section>

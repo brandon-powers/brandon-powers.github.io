@@ -51,7 +51,6 @@ nav ul li
     margin: 40px 5% 0px 0px;
     float: left;
     width: 45%;
-    height: 450px;
     line-height: 2em;
     font-size: 0.85em;
 }
@@ -67,7 +66,9 @@ p {
     margin: 40px 5% 0px 0px;
     float:left;
     width: 20%;
-    height: 175px;
+}
+.lg-card h3, .sm-card h3 {
+    font-size: 18px;
 }
 .center-content {
     text-align: center;
@@ -89,13 +90,12 @@ p {
 .recent-subject a
 {
     font-weight: 400;
-    margin-bottom: 5px;
     font-size: 1em;
 }
 .recent-subject p {
     font-size: 0.85em;
     font-weight: 200;
-    margin: 0;
+    margin-top: 5px;
 }
 .list-header {
     display: block;
@@ -125,15 +125,14 @@ p {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -40px;
+    margin: 0 auto -70px;
 }
 .push, footer {
-    height: 50px;
+    height: 70px;
 }
 footer {
     text-align: center; 
     width: 100%;
-    padding: 10px 0px;
 }
 footer p {
     margin-left: 5px;
@@ -144,4 +143,7 @@ footer p {
 }
 footer object {
     width: 25px;
+}
+.no-top-margin {
+    margin-top: 0px;
 }
