@@ -1,7 +1,42 @@
 ---
 layout: default
 ---
-{{ page.title }}
-{{ page.date | date: "%b %-d, %Y" }}
-{{ page.author }}
-{{ content }}
+
+<section class="post-header">
+    <h2>{{ page.title }}</h2>
+    <p >{{ page.date | date: "%b %-d, %Y" }}</p>
+    <div class="divider-line"></div>
+</section>
+<section class="post-content">
+
+    {{ content }}
+    
+    <div class="divider-line center"></div>
+    <div class="post-links">
+        <p>Interested in reading more? Check out some other blog posts!</p>
+        <ul>
+            {% for post in site.posts limit:3 %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_config = function () {
+        this.page.url = '{{ page.url | prepend: site.url }}';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = '{{ page.url }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+    
+        s.src = '//https-brandon-powers-github-io.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+    
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    <div class="add-bottom-margin"></div>
+
+</section>
