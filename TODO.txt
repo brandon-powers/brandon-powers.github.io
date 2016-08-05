@@ -1,4 +1,6 @@
 TODO list:
 
-2. Create 'blog/project' entry page
-5. Fix content on ALL pages
+- Finish projects page
+- Finish blog post page
+- Make site responsive
+- Clean up markup & project
