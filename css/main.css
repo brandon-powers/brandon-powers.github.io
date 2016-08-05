@@ -70,6 +70,9 @@ p {
 .lg-card h3, .sm-card h3 {
     font-size: 18px;
 }
+.center-content .lg-card {
+    width: 50%;
+}
 .center-content {
     text-align: center;
     margin-left: 35%;
@@ -82,7 +85,7 @@ p {
 }
 .center-content img {
     width: 18%;
-    margin: 40px 8px 0px 8px;
+    margin: 40px 12px 25px 12px;
 }
 .recent-subject {
     padding: 0px 0px 35px 0px;
@@ -146,4 +149,14 @@ footer object {
 }
 .no-top-margin {
     margin-top: 0px;
+}
+.project {
+    margin: 0px 170px 60px 170px;
+}
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+.project p {
+    line-height: 1.5em;
 }
