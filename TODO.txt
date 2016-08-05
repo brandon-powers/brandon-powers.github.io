@@ -4,3 +4,4 @@ TODO list:
 - Finish blog post page
 - Make site responsive
 - Clean up markup & project
+- Figure out RSS Feed
