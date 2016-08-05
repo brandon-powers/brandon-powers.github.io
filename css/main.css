@@ -124,7 +124,7 @@ p {
     font-size: 0.7em;
 }
 .post-content {
-    margin: 40px 140px 0px 140px;
+    margin: 40px 12% 0px 12%;
 }
 .post-content h3 {
     font-size: 1.7em;
@@ -211,7 +211,7 @@ footer object {
     margin-top: 0px;
 }
 .project {
-    margin: 0px 140px 60px 140px;
+    margin: 0px 12% 60px 12%;
 }
 .project h3 {
     font-size: 1.7em;
