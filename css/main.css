@@ -236,3 +236,15 @@ footer object {
     padding: 0;
     margin-top: 0;
 }
+.contact {
+    width: 35%;
+    margin: auto;
+    margin-top: 30px;
+}
+.contact img {
+    width: 17%;
+    padding: 15px;
+}
+.contact-images {
+    text-align: center;
+}
