@@ -33,12 +33,13 @@ h5 {
     width: 60%;
 }
 .contact img {
-    width: 14%;
+    width: 21%;
     margin: 15px 0px;
+    padding: 10px;
 }
 .about-pic {
     display: block;
-    width: 80%;
+    width: 90%;
     margin: auto;
     border-radius: 3px;
     margin-bottom: 25px;
