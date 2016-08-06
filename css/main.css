@@ -248,3 +248,6 @@ footer object {
 .contact-images {
     text-align: center;
 }
+.about-pic {
+    display: none;
+}
