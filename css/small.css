@@ -36,6 +36,13 @@ h5 {
     width: 14%;
     margin: 15px 0px;
 }
+.about-pic {
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
 @media (max-width: 480px) {
     nav ul li {
         display: block;
