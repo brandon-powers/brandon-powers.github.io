@@ -1,5 +1,5 @@
 TODO list:
 
-- Figure out RSS Feed
-- Write first blog post
 - Clean up markup & project
+    - _layouts/post
+    - *.html, *.css 
