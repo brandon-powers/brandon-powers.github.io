@@ -59,4 +59,8 @@ h5 {
     .post-content {
         margin: 40px 0px 0px 0px;
     }
+    .contact img {
+        width: 20%;
+        padding-bottom: 0px;
+    }
 }
