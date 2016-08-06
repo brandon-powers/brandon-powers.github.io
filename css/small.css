@@ -1,3 +1,7 @@
+.post-content blockquote {
+    margin-right: 0px;
+    margin-left: 10px;
+}
 .sm-card {
     display: none;
 }
