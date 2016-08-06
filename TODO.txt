@@ -1,5 +1,0 @@
-TODO list:
-
-- Clean up markup & project
-    - _layouts/post
-    - *.html, *.css 
