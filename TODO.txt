@@ -1,6 +1,5 @@
 TODO list:
 
-- Make site responsive
 - Figure out RSS Feed
 - Write first blog post
 - Clean up markup & project
