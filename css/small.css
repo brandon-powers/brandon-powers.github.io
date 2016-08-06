@@ -36,3 +36,9 @@ h5 {
     width: 14%;
     margin: 15px 0px;
 }
+@media (max-width: 480px) {
+    nav ul li {
+        font-size: 0.9em;    
+        margin-top: 10px;
+    }
+}
