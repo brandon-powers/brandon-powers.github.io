@@ -38,7 +38,25 @@ h5 {
 }
 @media (max-width: 480px) {
     nav ul li {
-        font-size: 0.9em;    
+        display: block;
         margin-top: 10px;
+    }
+    .lg-card {
+        width: 100%;
+    }
+    header {
+        margin: 10px 60px;    
+    }
+    .content {
+        margin: 0px 60px;    
+    }
+    .contact {
+        width: 100%;
+    }
+    .project {
+        margin: 0px 0px 60px 0px;
+    }
+    .post-content {
+        margin: 40px 0px 0px 0px;
     }
 }
