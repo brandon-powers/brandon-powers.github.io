@@ -3,13 +3,16 @@ layout: default
 ---
 
 <section class="post-header">
+
     <h2>{{ page.title }}</h2>
     <p >{{ page.date | date: "%b %-d, %Y" }}</p>
     <div class="divider-line"></div>
+
 </section>
+
 <section class="post-content">
 
-    {{ content }}
+    {{ content | indent: 4}}
     
     <div class="divider-line center"></div>
     <div class="post-links">
