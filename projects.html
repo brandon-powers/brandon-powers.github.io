@@ -17,7 +17,7 @@ permalink: /projects
         <a name="pasCal" href="#"></a>
         <h3>pasCal</h3>
         <p class="skills">C, gdb, valgrind</p>
-        <p><strong>pasCal</strong> is a partial implementation of a subset of the Pascal programming language in C. It performs the following stages of analysis on the source code: <strong>lexical, syntax, and semantic</strong>. It's a one-pass implementation, in that the source is only scanned once and the analysis stages are all done around the same time, as opposed to sequentially and making multiple passes.</p>
+        <p><strong>pasCal</strong> is a <strong>partial implementation of a subset of the Pascal programming language in C</strong>. It performs the following stages of analysis on the source code: <strong>lexical, syntax, and semantic</strong>. It's a one-pass implementation, in that the source is only scanned once and the analysis stages are all done around the same time, as opposed to sequentially and making multiple passes.</p>
         <p>Briefly, this is how the stages occur: (i) <em>lexical analysis</em> is done by simulating computation through a non-deterministic finite automaton (NFA), (ii) <em>syntax analysis</em> is done through recursive descent parsing with one function per non-terminal symbol, and (iii) <em>semantic analysis</em> is done by keeping track of the scope level and type attributes for each symbol in the symbol table, as well as using a C struct to figure out the 'semantics' of symbols.</p>
         <p><strong><a href="https://github.com/brandon-powers/pasCal" target="_blank">Source Code</a></strong></p>
     </div>
@@ -26,7 +26,7 @@ permalink: /projects
         <a name="pshare" href="#"></a>
         <h3>pshare</h3>
         <p class="skills">Python, argparse, API wrappers (tweepy + facepy)</p>
-        <p><strong>pshare</strong> is a python CLI for social media sharing (on Twitter and Facebook). The goal of pshare was to allow someone to do something as simple as post a blog post to multiple social media platforms in a single line command (psh -tf post ...) from the terminal. It's intuitive and easy to use. The commands pshare implements are the basic commands of any platform: read, post, and delete.</p>
+        <p><strong>pshare</strong> is a <strong>python CLI for social media sharing</strong> (on Twitter and Facebook). The goal of pshare was to allow someone to do something as simple as post a blog post to multiple social media platforms in a single line command (psh -tf post ...) from the terminal. It's intuitive and easy to use. The commands pshare implements are the basic commands of any platform: read, post, and delete.</p>
         <p>This project has been a <strong>team effort</strong>, and I'm collaborating with a friend in developing this CLI. We used the python module <strong>argparse</strong> to set up the command-line I/O portion of the program. Then there are two main classes: one for both Twitter and Facebook, with a clean separation of concerns in implementing the functionality.</p>
         <p><strong><a href="https://github.com/mgzwarrior/pshare" target="_blank">Source Code</a></strong></p>
     </div>
