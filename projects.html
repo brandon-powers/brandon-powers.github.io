@@ -17,8 +17,8 @@ permalink: /projects
         <a name="pasCal" href="#"></a>
         <h3>pasCal</h3>
         <p class="skills">C, gdb, valgrind</p>
-        <p><strong>pasCal</strong> is a partial implementation of a subset of the Pascal programming language in C. It performs the following stages of analysis on the source code: lexical, syntax, and semantic. It's a one-pass implementation, in that the source is only scanned once and the analysis stages are all done around the same time, as opposed to sequentially and making multiple passes.</p>
-        <p>Briefly, this is how the stages occur: (i) lexical analysis is done by simulating computation through a non-deterministic finite automaton (NFA), (ii) syntax analysis is done through recursive descent parsing with one function per non-terminal symbol, and (iii) semantic analysis is done by keeping track of the scope level and type attributes for each symbol in the symbol table, as well as using a C struct to figure out the 'semantics' of symbols.</p>
+        <p><strong>pasCal</strong> is a partial implementation of a subset of the Pascal programming language in C. It performs the following stages of analysis on the source code: <strong>lexical, syntax, and semantic</strong>. It's a one-pass implementation, in that the source is only scanned once and the analysis stages are all done around the same time, as opposed to sequentially and making multiple passes.</p>
+        <p>Briefly, this is how the stages occur: (i) <em>lexical analysis</em> is done by simulating computation through a non-deterministic finite automaton (NFA), (ii) <em>syntax analysis</em> is done through recursive descent parsing with one function per non-terminal symbol, and (iii) <em>semantic analysis</em> is done by keeping track of the scope level and type attributes for each symbol in the symbol table, as well as using a C struct to figure out the 'semantics' of symbols.</p>
         <p><strong><a href="https://github.com/brandon-powers/pasCal" target="_blank">Source Code</a></strong></p>
     </div>
 
@@ -35,8 +35,8 @@ permalink: /projects
         <a name="pyrd" href="#"></a>
         <h3>pyrd</h3>
         <p class="skills">Python, BeautifulSoup</p>
-        <p><strong>pyrd</strong> is a multi-threaded python-reddit (pyrd) web scraping search tool. The idea behind pyrd was to make a command-line application that allows a user to search multiple subreddits for posts, given a list of keywords. This was to be done through web scraping with BeautifulSoup, as opposed to using Reddit's API mainly for learning purposes, yet the utility still stands.</p>
-        <p>I took advantage of the structure of the Reddit post, and scraped the HTML to extract the data of a post into a custom Post class, which displays to the terminal. Another part of pyrd is that it uses argparse for I/O on the command-line, but also, it creates a thread per subreddit to search. This dispatcher-worker model allows multiple subreddits to be searched in parallel (psuedo-parallel; I could be wrong, but I believe the standard CPython implementation doesn't allow true parallelism because of some global lock).</p>
+        <p><strong>pyrd</strong> is a <strong>multi-threaded python-reddit (pyrd) web scraping search tool</strong>. The idea behind pyrd was to make a command-line application that allows a user to search multiple subreddits for posts, given a list of keywords. This was to be done through web scraping with BeautifulSoup, as opposed to using Reddit's API mainly for learning purposes, yet the utility still stands.</p>
+        <p>I took advantage of the structure of the Reddit post, and scraped the HTML to extract the data of a post into a custom Post class, which displays to the terminal. Another part of pyrd is that it uses argparse for I/O on the command-line, but also, it creates a thread per subreddit to search. This <em>dispatcher-worker model</em> allows multiple subreddits to be searched in parallel (psuedo-parallel; I could be wrong, but I believe the standard CPython implementation doesn't allow true parallelism because of some global lock).</p>
         <p><strong><a href="https://github.com/brandon-powers/pyrd" target="_blank">Source Code</a></strong></p>
     </div>
 
