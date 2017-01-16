@@ -244,9 +244,7 @@ footer object {
 }
 .contact img {
     width: 14%;
-    padding: 15px;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding: 18px 18px 13px 18px;
 }
 .contact-images {
     text-align: center;
