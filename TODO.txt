@@ -1,5 +1,0 @@
-TODO:
-
-- Minor styling changes
-- CSS file clean up
-- HTML class & tag clean up
