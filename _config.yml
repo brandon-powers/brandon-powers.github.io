@@ -4,6 +4,7 @@ description: Personal website of Brandon Powers
 url: "https://brandon-powers.github.io"
 baseurl: ""
 google_analytics: UA-81901140-1
+theme: minima
 
 gems: ['jekyll/itafroma/indent_filter']
 
