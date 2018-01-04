@@ -1,12 +1,20 @@
-# Site settings
-title: "Brandon Powers"
-description: Personal website of Brandon Powers
-url: "https://brandon-powers.github.io"
-baseurl: ""
-google_analytics: UA-81901140-1
-theme: minima
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-gems: ['jekyll/itafroma/indent_filter']
+# Setup
+title:               bran-crumbs 
+tagline:             'Breathe'
+description:         'Crumbs from the man himself, Bran'
+url:                 https://brandon-powers.github.io
+paginate:            5
 
-# Build settings
-markdown: kramdown
+# About/contact
+author:
+  name:              Brandon Powers
+  url:               https://twitter.com/bk_powers
+
+# Custom vars
+version:             1.0.0
