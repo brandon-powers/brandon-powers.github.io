@@ -1,8 +1,5 @@
-Personal website, hosted on GitHub.
+This site serves as a blog with an "about me" section, linking out to GitHub as a portfolio of work and LinkedIn as a resume.
 
-```
-.
-├── core
-│   ├── bin
-│   └── lib
-```
+Function:
+    * Blog
+    * About Me with outlinks
