@@ -4,23 +4,8 @@ layout: default
 permalink: /
 ---
 
-<section class="lg-card">
-    <h3>About</h3>
-    <div class="divider-line"></div>
-    <img class="about-pic" src="assets/images/brandonpowers.jpg"></img>
-    <p class="no-top-margin">Hi, I'm <strong>Brandon Powers</strong>. I'm an aspiring software engineer from right outside of Boston, Massachusetts.</p>
-    <p>I'm currently working on my Bachelors of Science at <a href="http://www.stonehill.edu" target="_blank">Stonehill College</a>, majoring in Computer Science. Of the many reasons I study CS and aspire to become a software engineer, the simplest of them all is because I think <strong>programming is awesome.</strong></p>
-    <!-- <p><strong>Why?</strong> The answer is three-fold: first, it's a <em>creative process</em>, where with a simple set of tools (compiler, editor, etc.) and an idea, you can create (almost) anything. Second, while building or working on something, you inevitably come across something you don't know how to do. Figuring out the <strong>"how to"</strong> of doing something, that act of <em>learning</em>, is rewarding as hell. Lastly, once the creative process is finished, the learning has been done, you have the chance to have built something that is <em>useful to people</em>, something that can make other peoples lives that much easier.</p> -->
-    <p>Want to work together? <strong><a href="/about">Talk to me!</a></strong></p>
-</section>
-
-<section class="sm-card">
-    <h3>Recent Posts</h3>
-    <div class="divider-line"></div>
-    {% for post in site.posts limit:3 %}
-    <div class="recent-subject">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <p>{{ post.date | date: '%B %d, %Y' }}</p>
-    </div>
-    {% endfor %}
-</section>
+<div class="blog-index">
+    {% assign post = site.posts.first %}
+    {% assign content = post.content %}
+    {% include _layouts/post.html %}
+</div>
