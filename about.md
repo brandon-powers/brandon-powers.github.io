@@ -12,10 +12,10 @@ I enjoy writing articles about what I'm working on, or what I'm thinking about a
 
 I'm currently a Software Engineer at [ListenFirst](https://www.listenfirstmedia.com/) in New York City. A few of the things I work on:
 
-    1. integrating external data sources with our data ingestion system
-    2. data modeling in our operational data store or data warehouse
-    3. writing API endpoints to expose a particular resource or allow access to specific collections of data
-    4. changing the world one line of code at a time
+1. integrating external data sources with our data ingestion system
+2. data modeling in our operational data store or data warehouse
+3. writing API endpoints to expose a particular resource or allow access to specific collections of data
+4. changing the world one line of code at a time
 
 Okay, number four was a slight exaggeration.
 
