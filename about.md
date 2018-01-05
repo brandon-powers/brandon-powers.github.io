@@ -3,7 +3,9 @@ layout: page
 title: About
 ---
 
-Hi there, I'm Brandon. I enjoy writing articles about what I'm working on, or what I'm thinking about at a particular moment in time. My primary interests are Computer Science related fields, be it software engineering, computer networking, cybersecurity, etc.. I also like [music](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+Hi there, I'm Brandon. 
+
+I enjoy writing articles about what I'm working on, or what I'm thinking about at a particular moment in time. My primary interests are Computer Science related fields, be it software engineering, computer networking, cybersecurity, etc.. I also like [music](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
 
 I'm currently a Software Engineer at [ListenFirst](https://www.listenfirstmedia.com/) in New York City. A few of the things I work on:
 

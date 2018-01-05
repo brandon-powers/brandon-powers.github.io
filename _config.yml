@@ -6,7 +6,7 @@ paginate: 5
 paginate_path: "page:num"
 
 # Setup
-title: Simple Quandaries
+title: simple_quandaries
 tagline: 'Open and wholly receptive'
 description: 'Ramblings of a software engineer, also human...labels are elusive.'
 url: https://brandon-powers.github.io
