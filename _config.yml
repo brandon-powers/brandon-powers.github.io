@@ -6,8 +6,8 @@ paginate: 5
 paginate_path: "page:num"
 
 # Setup
-title: simple_quandaries
-tagline: 'Open and wholly receptive'
+title: flux
+tagline: 'Still try, for who knows what is possible'
 description: 'Ramblings of a software engineer, also human...labels are elusive.'
 url: https://brandon-powers.github.io
 baseurl: https://brandon-powers.github.io
