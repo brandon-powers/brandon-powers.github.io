@@ -1,22 +1,21 @@
 # Permalinks
 #
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink: pretty
 gems: [jekyll-paginate]
 paginate: 5
 paginate_path: "page:num"
 
 # Setup
-title:               bran-crumbs 
-tagline:             'Breathe'
-description:         'Crumbs from the man himself, Bran'
-url:                 https://brandon-powers.github.io
-baseurl:             https://brandon-powers.github.io
+title: Simple Quandaries
+tagline: 'Open and wholly receptive'
+description: 'Ramblings of a software engineer, also human...labels are elusive.'
+url: https://brandon-powers.github.io
+baseurl: https://brandon-powers.github.io
 
 # About/contact
 author:
-  name:              Brandon Powers
-  url:               https://twitter.com/bk_powers
+  name: Brandon Powers
+  url: https://twitter.com/bk_powers
 
 # Custom vars
-version:             1.0.0
+version: 1.0.0
