@@ -3,6 +3,9 @@ layout: page
 title: About
 ---
 
+<img src="{{ site.baseurl }}/assets/images/concert.jpg">
+</img>
+
 Hi there, I'm Brandon. 
 
 I enjoy writing articles about what I'm working on, or what I'm thinking about at a particular moment in time. My primary interests are Computer Science related fields, be it software engineering, computer networking, cybersecurity, etc.. I also like [music](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
