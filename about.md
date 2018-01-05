@@ -3,8 +3,7 @@ layout: page
 title: About
 ---
 
-<img src="{{ site.baseurl }}/assets/images/concert.jpg">
-</img>
+<img src="{{ site.baseurl }}/assets/images/concert.jpg" />
 
 Hi there, I'm Brandon. 
 
