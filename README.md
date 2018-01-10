@@ -1,1 +1,3 @@
-This site serves as a blog with an "about me" section, linking out to GitHub as a portfolio of work and LinkedIn as a resume.
+## flux
+
+Big thanks to @mdo, as I'm using his Lanyon theme for Jekyll, found here: https://github.com/poole/lanyon.
