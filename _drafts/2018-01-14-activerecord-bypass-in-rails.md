@@ -13,9 +13,11 @@ It is the object relational mapper (ORM) used in Rails. It's extremely convenien
 
 This article will cover the situation where you find yourself writing raw SQL in a Rails project, using the native driver of your data store. I'll cover PostgreSQL for the sake of simplicity (and because that's what I faced), but the ideas should translate relatively well.
 
+Note: I'm skipping over any installation or setup of the data store, for brevity sake.
+
 ### Connecting to your native driver
 
-TODO -> write a gist for here and embed it
+<script src="https://gist.github.com/brandon-powers/974730be59d46bd98926e906fcef58e6.js"></script>
 
 If you happen to disagree with any of the points in this article, or want to express your comments, feel free to contact me through the "About" section on this site.
 
