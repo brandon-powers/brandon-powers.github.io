@@ -5,19 +5,10 @@ title: About
 
 <img src="{{ site.baseurl }}/assets/images/about.jpg" />
 
-Hi there, I'm Brandon.
+Hello there, my name is Brandon.
 
-I enjoy writing articles about what I'm working on, or what I'm thinking about at a particular moment in time. My primary interests are Computer Science related fields, be it software engineering, computer networking, cybersecurity, etc.. I also like [music](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+I like to read and write software that solves intriguing problems. In 2017, I received an undergraduate degree in Computer Science, studying everything from abstract data types to cache locality, while learning to function well as a part of a software engineering team with non-technical stakeholders. Soon after, I moved from the Boston, MA area to NYC and began a job as a software engineer at ListenFirst Media, pprimarily on the data ingestion team. I spent from June 2017 to February 2019 at ListenFirst, of which I learned a lot and improved my ability to perform as a professional software engineer. I'm grateful for the experience, and the team.
 
-I'm currently a Software Engineer at [ListenFirst](https://www.listenfirstmedia.com/) in New York City. A few of the things I work on:
+I enjoy [music](https://www.youtube.com/watch?v=dQw4w9WgXcQ), too.
 
-1. integrating external data sources with our data ingestion system
-  - i.e. write ingest handler to integrate a new audience insights provider for multiple channels (Twitter, Youtube, Facebook, etc.)
-2. data modeling in our operational data store or data warehouse
-3. writing API endpoints to expose a particular resource or allow access to specific collections of data
-4. satisfy data pull requests from product/client services (i.e. retrieve all of the Instagram pages in our data store actively associated with a set of brands that are owned by audience-enabled accounts)
-4. changing the world one line of code at a time
-
-Okay, number four was a slight exaggeration, but I'd like it to be true.
-
-Feel free to check me out or shoot me a message on [LinkedIn](https://www.linkedin.com/in/brandonkpowers/) or [GitHub](https://github.com/brandon-powers).
+For more details, feel free to check me out or shoot me a message on [LinkedIn](https://www.linkedin.com/in/brandonkpowers/) or [GitHub](https://github.com/brandon-powers).
