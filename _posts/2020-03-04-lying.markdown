@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Lying"
+date:   2020-03-04 11:20:10 -0500
+categories: jekyll update
+---
+> "<Sam Harris Lying quote>"
+
+Lying is not generally a virtue. Though it is common for people to tell lies as a part of everyday life. Why, if we know it is the case that it often causes suffering to yourself and others?
+
+Sam Harris, neuroscientist and author, explores this question with a proposition to _never tell a lie_, in his book [Lying][Lying-Book]. It's based on a moral seminar he had taken in undergraduate, and this is my second read of it so far.
+
+[Lying-Book]: https://samharris.org/books/lying/
